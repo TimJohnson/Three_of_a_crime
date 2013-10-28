@@ -44,7 +44,7 @@ object GameLogic {
 		
 	  }else{
 	    if(!winner){
-	      println("No one guessed correctly, You all lose =[\nGAME OVER!")
+	      Input.loser
 	    }
 	    exit(0)
 	  }
